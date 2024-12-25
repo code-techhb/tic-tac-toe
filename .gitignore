@@ -1,0 +1,33 @@
+# macOS system files
+.DS_Store
+
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# PyCharm-specific files
+.idea/
+
+# Virtual environment folder
+venv/
+env/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Log files
+*.log
+
+# Temporary files
+*.swp
+*.swo
+
+# IDE-specific user settings
+.idea/*
+!.idea/.gitignore
+
+# Exclude coverage report and pytest cache if you use these
+.coverage
+*.cover
+*.hypothesis/
+.cache/
